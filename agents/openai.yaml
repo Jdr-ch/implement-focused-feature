@@ -1,0 +1,4 @@
+interface:
+  display_name: "聚焦功能实现"
+  short_description: "冻结最小验收，以动作准入限制范围并在通过后停止"
+  default_prompt: "使用 $implement-focused-feature，先冻结成功路径、聚焦测试和结构校验；仅执行能映射到冻结清单或明确硬门禁的动作，并在最小验收通过后停止。"
