@@ -1,4 +1,4 @@
 interface:
-  display_name: "聚焦任务实现"
-  short_description: "冻结最小验收，以动作准入限制范围并在通过后停止"
-  default_prompt: "使用 $implement-focused-feature，围绕用户要求的代码变更或文档等交付产物，先冻结成功路径、聚焦验证和结构校验；仅执行能映射到冻结清单或明确硬门禁的动作，遵守适用领域规则，并在最小验收通过后停止。"
+  display_name: "任务效率建议"
+  short_description: "复用有效材料与验证结果，合并独立操作，按主流程完整交付"
+  default_prompt: "使用 $implement-focused-feature 作为通用效率建议：沿用当前目标和适用主流程，复用未失效的材料与通过证据，不反复验证同一结论，不擅自增加无关功能；合并必要操作并在已有调度内并行，完成必要修复与收尾，不新增流程、门禁、次数限制或审批。"
