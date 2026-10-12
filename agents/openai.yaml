@@ -1,4 +1,4 @@
 interface:
   display_name: "任务效率建议"
-  short_description: "首条进度展示阶段章程，复用有效材料与证据，按主流程完整交付"
-  default_prompt: "使用 $implement-focused-feature，在适用阶段首条进度呈现目标与范围及保持项、动作及授权、验证边界和完成/停止条件，未知项标为待核对；沿用专项流程，复用有效事实与证据，在当前授权内完整交付。"
+  short_description: "首条进度明确列出五项章程，复用有效证据并按主流程完整交付"
+  default_prompt: "使用 $implement-focused-feature，在适用阶段首条进度以“阶段启动章程”标识，逐项标明目标、范围与保持项、动作与授权、验证边界、完成与停止；未知事实写待核对，未核实授权写待判定，沿用专项流程并在当前授权内完整交付。"
